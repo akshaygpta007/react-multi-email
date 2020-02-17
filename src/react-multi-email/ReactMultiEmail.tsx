@@ -201,6 +201,7 @@ class ReactMultiEmail extends React.Component<
           getLabel(email, index, this.removeEmail),
         )}
         <input
+        placeholder="helo world"
           ref={this.emailInputRef}
           type="text"
           value={inputValue}
